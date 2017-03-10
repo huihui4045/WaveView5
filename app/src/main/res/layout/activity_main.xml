@@ -1,0 +1,38 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wave="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dn.waveview5.MainActivity" >
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/sun2" />
+
+    <com.dn.waveview5.WaveView
+        wave:waveLength="600px"
+        wave:rise="true"
+        android:id="@+id/waveView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+<!--     <com.dn.waveview2.WaveView1 -->
+<!--         android:background="#ff0" -->
+<!--         android:id="@+id/waveView" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="match_parent" /> -->
+
+<!--     <com.dn.waveview2.WaveView2 -->
+<!--         android:id="@+id/waveView" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="match_parent" /> -->
+
+
+
+</RelativeLayout>
